@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kỹ Năng Số - Sử Dụng Mạng Xã Hội An Toàn và Hiệu Quả</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Tổng quan toàn trang */
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background: linear-gradient(to bottom, #f9f9f9, #d9e8fc);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Tiêu đề */
+        header {
+            background: #0078d7;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        header ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        header ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        header ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Nội dung chính */
+        section {
+            text-align: center;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            background: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        /* Hình ảnh minh họa */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* Nút đăng ký */
+        button {
+            background: #0078d7;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kỹ Năng Số</h1>
+        <p>Nâng cao kỹ năng sử dụng mạng xã hội an toàn và hiệu quả</p>
+        <nav>
+            <ul>
+                <li><a href="#home">Trang Chủ</a></li>
+                <li><a href="#courses">Khóa Học</a></li>
+                <li><a href="#resources">Tài Nguyên</a></li>
+                <li><a href="#forum">Diễn Đàn</a></li>
+                <li><a href="#contact">Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Chào Mừng Đến Với Kỹ Năng Số</h2>
+        <p>Nâng cao nhận thức và kỹ năng sử dụng mạng xã hội an toàn và hiệu quả dành cho học sinh.</p>
+        <img src="social-media.jpg" alt="Ảnh minh họa mạng xã hội">
+        <video controls>
+            <source src="intro-video.mp4" type="video/mp4">
+            Trình duyệt của bạn không hỗ trợ video.
+        </video>
+    </section>
+
+    <section id="courses">
+        <h2>Khóa Học Của Chúng Tôi</h2>
+        <div class="course">
+            <h3>An Toàn và Hiệu Quả Trên Mạng Xã Hội</h3>
+            <p><strong>Đối tượng:</strong> Học sinh từ 12-18 tuổi</p>
+            <p><strong>Thời lượng:</strong> 4 tuần</p>
+            <p><strong>Nội dung:</strong></p>
+            <ul>
+                <li>Buổi 1: Tìm hiểu về mạng xã hội</li>
+                <li>Buổi 2: An toàn trên mạng</li>
+                <li>Buổi 3: Kỹ năng giao tiếp và quản lý thời gian</li>
+                <li>Buổi 4: Sáng tạo nội dung tích cực</li>
+            </ul>
+            <button>Đăng Ký Ngay</button>
+        </div>
+    </section>
+
+    <section id="resources">
+        <h2>Tài Nguyên Học Tập</h2>
+        <ul>
+            <li><a href="ebook.pdf">Cẩm nang sử dụng mạng xã hội an toàn</a></li>
+            <li><a href="video-tutorial.html">Video hướng dẫn bảo mật</a></li>
+            <li><a href="blog.html">Chia sẻ kinh nghiệm thực tế</a></li>
+        </ul>
+    </section>
+
+    <section id="forum">
+        <h2>Diễn Đàn Thảo Luận</h2>
+        <p>Tham gia các cuộc thảo luận:</p>
+        <ul>
+            <li><a href="#">Làm sao để không bị nghiện mạng xã hội?</a></li>
+            <li><a href="#">Cách xử lý khi bị bắt nạt trực tuyến</a></li>
+            <li><a href="#">Chia sẻ ý tưởng nội dung sáng tạo</a></li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Liên Hệ</h2>
+        <form action="submit-form.html" method="post">
+            <label for="name">Họ và Tên:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Số Điện Thoại:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="school">Trường Học:</label>
+            <input type="text" id="school" name="school">
+
+            <button type="submit">Gửi</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kỹ Năng Số. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
